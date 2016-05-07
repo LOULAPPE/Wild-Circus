@@ -1,0 +1,329 @@
+body {
+	background-color: #555555;
+	background-image: url('http://image1.redbull.com/rbcom/010/2016-04-07/1331787368856_3/0010/1/800/533/3/red-bull-xfighters-madrid-las-ventas-birdsview.jpg');
+	background-repeat: no-repeat;
+	background-position:top center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+header {
+	background: white;
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background-image: url('http://p8.storage.canalblog.com/84/30/567977/77847704_p.gif');
+	background-repeat: no-repeat;
+	color: white;
+	display: block;
+	height: 20%;
+	left: 0px;
+	opacity:.6;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+
+div {
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+	background-color: black;
+	background: none;
+	border: none;
+	display: none;
+	height: 50%;
+	left: 2%;
+	position: absolute;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	top: 24%;
+	width: 50%;
+	z-index: 101;
+}
+
+/* Présentation du texte qui apparait ou disparait sur un click et de la liste des 199 capitales*/ 
+p {
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+	font-size: 28px;
+	height: 10%;
+	left: 0px;
+	overflow-x:inherit;
+	overflow-y:hidden;
+	- ms-overflow-style:-ms-autohiding-scrollbar;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	top: 0%;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	width: 100%;
+	z-index: 102;
+}
+
+
+/* Zone d'affichage des news */	
+article {
+	background-color: black;
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	color: black;
+	display: block;
+	font-size: 15px;
+	height: 60%;
+	left: 60%;
+	margin: 0 0 0 0;
+	overflow-x:inherit;
+	overflow-y:hidden;
+	- ms-overflow-style:-ms-autohiding-scrollbar;
+	opacity: .9;
+	position: absolute;
+	top: 28%;
+	width: 22%;
+	z-index: 103;
+}
+
+p.article{
+	height: 100%;
+}
+	
+	
+/* Vidéos externes Youtube */ 
+embed {
+	background-color: black;
+	border-style: none;
+	color: black;
+	display: None;
+	font-size: 15px;
+	height: 35%;
+	left: 60%;
+	opacity: .9;
+	position: absolute;
+	text-align: justify;
+	top: 55%;
+	width: 22%;
+	z-index: 140;
+}
+
+
+ /* Pied de page fixe*/
+footer {
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	display: block;
+	height: 7%;
+	left: 0px;
+	opacity:.6;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 105;
+}
+
+/* Barre de navigation */
+nav {
+	border: none;
+	color: black;
+	display: block;
+	font-size: 4rem;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	text-align: left;
+	top: 15%;
+	width: 12%;
+	z-index: 106;
+}
+
+/* Boutons Navigation*/
+button {
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	cursor: pointer;
+	font-size: 25px;
+	height: 10%;
+	opacity: .6;
+	top: 25%;
+	width: 80%;
+}
+
+
+
+small {
+	opacity: 0;
+}
+
+h1{
+	color: white;
+	font-size: 45px;
+}
+
+h2{
+	color: yellow;
+	font-size: 30px;
+}
+
+.afficher {
+	display: block;
+	height: 63%;
+	opacity: .9;
+}
+
+.afficherVideo {
+	background-color: black;
+	border-style: none;
+	color: black;
+	display: block;
+	font-size: 15px;
+	height: 34%;
+	left: 60%;
+	opacity: .9;
+	position: absolute;
+	text-align: justify;
+	top: 56%;
+	width: 22%;
+	z-index: 140;
+}
+
+
+.show-description p {
+	height: 100%;
+	overflow-y:auto;
+}
+
+.show-description small {
+	opacity: 1;
+}
+
+.flexslider {
+	display: block;
+	height: 50%;
+	left: 2%;
+	opacity: .7;
+	position: absolute;
+	text-transform: none;
+	top: 26%;
+	width: 53%;
+	z-index: 50;
+}
+
+ul.slides li img {
+	width: 100%; 
+	height: 100%;
+	max-height: 400px; 
+}
+
+ul {
+	cursor: none;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.ecart {
+	float: right;
+}
+
+ /* Partie média, juste quelques essais....*/
+@media (max-width: 500px) {
+	
+	h1 {
+		font-size: 20px;
+		margin-top: 5px;
+		line-height: 25px;
+	}
+  
+	h2 {
+		font-size: 15px;
+	}
+   	
+	small {
+		font-size: 14px;
+	}
+
+	ul.slides li img {
+		max-height: 250px;
+	}
+	
+	
+	header{
+		height:10%;
+		background-image: None;
+	}
+
+	.afficherVideo {
+		height:30%;
+		left: 2%;
+		top:60%;
+		width:47%;
+	}
+	
+	article {
+		height:30%;
+		left: 51%;
+		top:60%;
+		width:46%;
+	}	
+	
+	div {
+		height: 100%;
+		top: 12%;
+		width: 96%;
+		z-index:200;
+	}
+	
+	
+	p {
+		font-size: 16px;
+		top:0%;
+		height: 8%;
+		left: 0px;
+		width: 93%;
+	}
+	
+	
+	.flexslider {
+		height: 98%;
+		top: 16%;
+		width: 97%;
+	}
+	button{
+		display: none;
+	}
+	
+	ul {
+		list-style: none;
+		display: inline;
+		top: 0px;
+		z-index:200;
+	}
+	
+	nav {
+		display: inline;
+		height: 2%;
+		text-align: center;
+		top: 5%;
+		width: 12%;
+	}
+
+	body {
+		background-color: #555555;
+		background-image: none;
+	}
+
+	.afficher {
+		height: 55%;
+	}
+}
