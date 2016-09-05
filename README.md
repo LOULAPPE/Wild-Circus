@@ -12,6 +12,6 @@ Commandes Git
 http://rogerdudler.github.io/git-guide/index.fr.html
 Pas mal le site, mais je vais le recopier en memo sous le pc...
 
-J'ai aussi installÃ© et fait un essai avec GitHub.
+J'ai aussi installé et fait un essai avec GitHub.
 
 !
